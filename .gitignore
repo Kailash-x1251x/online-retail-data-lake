@@ -1,0 +1,24 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Raw dataset
+data/raw/
+
+# Generated pipeline outputs
+data/processed/
+data/curated/
+data/rejected/
+
+# Secrets
+.env
+.env.*
+!.env.example
