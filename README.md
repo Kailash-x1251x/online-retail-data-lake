@@ -81,6 +81,28 @@ The source dataset contains:
 
 The raw dataset is kept outside version control and is not included in this GitHub repository.
 
+## Dataset Setup
+
+This project uses the **Online Retail** dataset published by Tunguz on Kaggle.
+
+**Dataset source:** https://www.kaggle.com/datasets/tunguz/online-retail
+
+### Download and prepare the data
+
+1. Open the Kaggle dataset page above.
+2. Download the dataset files. Sign in to Kaggle if prompted.
+3. Extract the downloaded archive if necessary.
+4. Locate the CSV file used by this project, `Online_Retail.csv`.
+5. Place it in the following project directory:
+
+   `data/raw/Online_Retail.csv`
+
+The pipeline expects the CSV file at this exact path and uses its original column names.
+
+**Important:** The raw dataset and generated pipeline outputs are excluded from this Git repository. Anyone running the project must download the dataset separately before executing the pipeline.
+
+Dataset attribution: Tunguz, *Online Retail*, Kaggle. See the linked dataset page for the publisher's licensing and attribution information.
+
 ## Data Quality and Cleaning
 
 The pipeline applies the following rules when creating the cleaned transaction dataset:
